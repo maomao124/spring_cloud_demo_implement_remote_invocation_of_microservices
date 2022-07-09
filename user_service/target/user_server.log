@@ -1,0 +1,13 @@
+2022-07-09 20:26:55.276  INFO 11748 --- [main] mao.user_service.UserServiceApplication  : Starting UserServiceApplication v0.0.1 on mao with PID 11748 (H:\程序\大三暑假\spring_cloud_demo实现微服务远程调用\user_service\target\user_service-0.0.1.jar started by mao in H:\程序\大三暑假\spring_cloud_demo实现微服务远程调用\user_service\target)
+2022-07-09 20:26:55.280 DEBUG 11748 --- [main] mao.user_service.UserServiceApplication  : Running with Spring Boot v2.3.9.RELEASE, Spring v5.2.13.RELEASE
+2022-07-09 20:26:55.281  INFO 11748 --- [main] mao.user_service.UserServiceApplication  : No active profile set, falling back to default profiles: default
+2022-07-09 20:26:56.663  INFO 11748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-09 20:26:56.674  INFO 11748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 20:26:56.675  INFO 11748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-07-09 20:26:56.751  INFO 11748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-09 20:26:56.751  INFO 11748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1412 ms
+2022-07-09 20:26:56.919  INFO 11748 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-09 20:26:57.109  INFO 11748 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-09 20:26:57.354  INFO 11748 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-09 20:26:57.646  INFO 11748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-09 20:26:57.662  INFO 11748 --- [main] mao.user_service.UserServiceApplication  : Started UserServiceApplication in 3.052 seconds (JVM running for 3.537)
