@@ -1,9 +1,11 @@
 package mao.order_service.service;
 
 import mao.order_service.entity.Order;
+import mao.order_service.entity.User;
 import mao.order_service.mapper.OrderMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * Project name(项目名称)：spring_cloud_demo
@@ -24,6 +26,9 @@ public class OrderService
     @Autowired
     private OrderMapper orderMapper;
 
+    @Autowired
+    private RestTemplate restTemplate;
+
     /**
      * 获取订单数据
      *
@@ -34,6 +39,14 @@ public class OrderService
     {
         // 根据orderId获取订单数据
         Order order = orderMapper.findById(orderId);
+        //获得用户的id
+        Long userId = order.getUserId();
+        //发起远程调用
+        //url
+        String url = "http://localhost:8082/user/" + userId;
+        User user = restTemplate.getForObject(url, User.class);
+        //放入order里
+        order.setUser(user);
         //返回数据
         return order;
     }
