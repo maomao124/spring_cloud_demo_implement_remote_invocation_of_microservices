@@ -250,3 +250,19 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 2022-07-09 20:02:55.123  INFO 18896 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2022-07-09 20:02:55.124  INFO 18896 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-07-09 20:02:55.125  INFO 18896 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-09 20:04:51.269  INFO 12076 --- [main] m.order_service.OrderServiceApplication  : Starting OrderServiceApplication on mao with PID 12076 (H:\程序\大三暑假\spring_cloud_demo实现微服务远程调用\order_service\target\classes started by mao in H:\程序\大三暑假\spring_cloud_demo实现微服务远程调用)
+2022-07-09 20:04:51.271 DEBUG 12076 --- [main] m.order_service.OrderServiceApplication  : Running with Spring Boot v2.3.9.RELEASE, Spring v5.2.13.RELEASE
+2022-07-09 20:04:51.272  INFO 12076 --- [main] m.order_service.OrderServiceApplication  : No active profile set, falling back to default profiles: default
+2022-07-09 20:04:51.975  INFO 12076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-07-09 20:04:51.988  INFO 12076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 20:04:51.989  INFO 12076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-07-09 20:04:52.050  INFO 12076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-09 20:04:52.050  INFO 12076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 740 ms
+2022-07-09 20:04:52.134  INFO 12076 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-09 20:04:52.243  INFO 12076 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-09 20:04:52.366  INFO 12076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-09 20:04:52.531  INFO 12076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-09 20:04:52.539  INFO 12076 --- [main] m.order_service.OrderServiceApplication  : Started OrderServiceApplication in 1.559 seconds (JVM running for 2.133)
+2022-07-09 20:05:05.780  INFO 12076 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-09 20:05:05.781  INFO 12076 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-09 20:05:05.782  INFO 12076 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
